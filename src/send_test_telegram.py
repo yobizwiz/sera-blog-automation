@@ -45,7 +45,7 @@ def main():
 
     header = (
         "📨 <b>테스트 메시지</b> — 5/8(금) 부터 이 형식으로 도착합니다\n\n"
-        "✅ <b>Steep Society 자동 발행 결과</b>\n"
+        "✅ <b>SERA 자동 발행 결과</b>\n"
         f"<i>{esc(range_str)}</i>\n\n"
         f"성공 <b>{success}</b> / 실패 <b>{failed}</b> / 건너뜀 <b>{skipped}</b>\n"
     )
