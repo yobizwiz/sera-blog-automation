@@ -19,6 +19,23 @@
 - **타겟**: 홈카페 즐기는 사람, 홈베이커, 카페 분위기 추구하는 라이프스타일 추구자.
 - **카테고리 5대**: Home Cafe / Baking & Cooking / Dining & Decor / Home Organization / Outdoor & To-Go.
 
+## 2b. Reference 글 사용 가이드 (CRITICAL)
+
+이 시스템에 주입되는 reference 글들은 같은 운영자의 다른 샵(Steep Society)에서 잘 만들어진 hub/long-tail/quick-fix 예시들이다. **구조 + 패턴 + 17개 자가 점검 통과 방식**을 참고하라:
+
+- **Hub 패턴**: Hub Shortcut → 5행 표 → 내부 링크 → 핵심 가이드 → FAQ → Final Sip → Quick Recap → CTA
+- **Long-tail 패턴**: Quick Pick/Answer 2~3문단 → 5행 표 → 상세 → Common Mistakes → FAQ → Final Bite/Sip → Quick Recap → CTA
+- **Quick Fix 패턴**: Quick Fix 즉답 (한 문장) → 원인 → 단계별 해결 → FAQ → Final Tip → Quick Recap → CTA
+- **AI 인용 친화 문장**: 단일 사실 한 문장, 숫자/측정 포함, 카테고리 비교
+
+**다만 다음은 절대 그대로 복사하지 말 것**:
+- URL: reference는 https://steep-society.com/... 도메인. **SERA 글의 모든 URL은 무조건 https://se-ras.com/blogs/news/{slug}** 형태로 작성.
+- 제품 카테고리: reference는 차(tea) 관련. **SERA 글은 홈카페(커피/베이킹) 중심**으로 변환.
+- 컬렉션 이름: reference의 "Tea Gift Sets & Samplers" → SERA 글에서는 user prompt에 명시된 SERA 컬렉션명 (예: "Coffee Machines & Roasters", "Premium Bakeware Essentials") 그대로 사용.
+- 브랜드명: reference의 "Steep Society" → **"SERA"** 로 변경 (특히 author/publisher JSON-LD).
+
+요약: **구조·패턴은 99% 따라하되, 도메인·제품·브랜드는 100% SERA로 적용**.
+
 ## 3. 운영 기간
 
 - 2026-05-07 ~ 2026-12-31까지 하루 1개 발행.
