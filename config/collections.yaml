@@ -1,0 +1,123 @@
+# SERA Shopify collection mappings — used as CTA target by blog automation
+# Each entry: handle: {title, handle, url}
+# Title = button text (must match collection name 1:1)
+
+home-cafe-essentials:
+  title: "Home Cafe Essentials"
+  handle: "home-cafe-essentials"
+  url: "https://se-ras.com/collections/home-cafe-essentials"
+
+premium-coffee-beans:
+  title: "Premium Coffee Beans"
+  handle: "premium-coffee-beans"
+  url: "https://se-ras.com/collections/premium-coffee-beans"
+
+coffee-machines-roasters:
+  title: "Coffee Machines & Roasters"
+  handle: "coffee-machines-roasters"
+  url: "https://se-ras.com/collections/coffee-machines-roasters"
+
+flavor-syrups-concentrates:
+  title: "Beverage Syrups & Concentrates"
+  handle: "flavor-syrups-concentrates"
+  url: "https://se-ras.com/collections/flavor-syrups-concentrates"
+
+premium-tea-blends:
+  title: "Premium Tea Blends"
+  handle: "premium-tea-blends"
+  url: "https://se-ras.com/collections/premium-tea-blends"
+
+coffee-gadgets-small-appliances:
+  title: "Coffee Gadgets & Small Appliances"
+  handle: "coffee-gadgets-small-appliances"
+  url: "https://se-ras.com/collections/coffee-gadgets-small-appliances"
+
+espresso-parts-maintenance:
+  title: "Espresso Parts & Maintenance"
+  handle: "espresso-parts-maintenance"
+  url: "https://se-ras.com/collections/espresso-parts-maintenance"
+
+baking-cooking-essentials:
+  title: "Baking & Cooking Essentials"
+  handle: "baking-cooking-essentials"
+  url: "https://se-ras.com/collections/baking-cooking-essentials"
+
+cooking-baking-pantry-staples:
+  title: "Cooking & Baking Pantry Staples"
+  handle: "cooking-baking-pantry-staples"
+  url: "https://se-ras.com/collections/cooking-baking-pantry-staples"
+
+premium-bakeware-essentials:
+  title: "Premium Bakeware Essentials"
+  handle: "premium-bakeware-essentials"
+  url: "https://se-ras.com/collections/premium-bakeware-essentials"
+
+professional-cookware-pots:
+  title: "Professional Cookware & Pots"
+  handle: "professional-cookware-pots"
+  url: "https://se-ras.com/collections/professional-cookware-pots"
+
+measure-inspectprecision-measuring-tools:
+  title: "Measure & Inspect Tools"
+  handle: "measure-inspectprecision-measuring-tools"
+  url: "https://se-ras.com/collections/measure-inspectprecision-measuring-tools"
+
+kitchen-utensils-gadgets:
+  title: "Kitchen Utensils & Gadgets"
+  handle: "kitchen-utensils-gadgets"
+  url: "https://se-ras.com/collections/kitchen-utensils-gadgets"
+
+dining-entertaining:
+  title: "Dining & Entertaining"
+  handle: "dining-entertaining"
+  url: "https://se-ras.com/collections/dining-entertaining"
+
+kitchen-table-linens:
+  title: "Kitchen & Table Linens"
+  handle: "kitchen-table-linens"
+  url: "https://se-ras.com/collections/kitchen-table-linens"
+
+home-decor-accents:
+  title: "Home Décor Accents"
+  handle: "home-decor-accents"
+  url: "https://se-ras.com/collections/home-decor-accents"
+
+dining-home-decor:
+  title: "Dining & Home Decor"
+  handle: "dining-home-decor"
+  url: "https://se-ras.com/collections/dining-home-decor"
+
+storage-organization-solutions:
+  title: "Home Storage & Organization Solutions"
+  handle: "storage-organization-solutions"
+  url: "https://se-ras.com/collections/storage-organization-solutions"
+
+cleaning-tools-supplies:
+  title: "Cleaning Tools & Supplies"
+  handle: "cleaning-tools-supplies"
+  url: "https://se-ras.com/collections/cleaning-tools-supplies"
+
+hydration-travel-bottles:
+  title: "Hydration & Travel Bottles"
+  handle: "hydration-travel-bottles"
+  url: "https://se-ras.com/collections/hydration-travel-bottles"
+
+lunch-boxes-food-jars:
+  title: "Lunch Boxes & Food Jars"
+  handle: "lunch-boxes-food-jars"
+  url: "https://se-ras.com/collections/lunch-boxes-food-jars"
+
+coolers-insulated-bags:
+  title: "Coolers & Insulated Bags"
+  handle: "coolers-insulated-bags"
+  url: "https://se-ras.com/collections/coolers-insulated-bags"
+
+picnic-outdoor-dining:
+  title: "Picnic & Outdoor Dining"
+  handle: "picnic-outdoor-dining"
+  url: "https://se-ras.com/collections/picnic-outdoor-dining"
+
+grill-outdoor-cooking:
+  title: "Grills & Outdoor Cooking"
+  handle: "grill-outdoor-cooking"
+  url: "https://se-ras.com/collections/grill-outdoor-cooking"
