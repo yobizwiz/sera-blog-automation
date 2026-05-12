@@ -140,7 +140,7 @@ def main():
 
     summary_emoji = "✅" if failed == 0 else "⚠️"
     header = (
-        f"{summary_emoji} <b>Steep Society 자동 발행 결과</b>\n"
+        f"{summary_emoji} <b>SERA 자동 발행 결과</b>\n"
         f"<i>{esc(range_str)}</i>\n\n"
         f"성공 <b>{success}</b> / 실패 <b>{failed}</b> / 건너뜀 <b>{skipped}</b>\n"
     )
