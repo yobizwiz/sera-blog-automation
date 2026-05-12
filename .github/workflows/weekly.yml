@@ -1,0 +1,107 @@
+name: Weekly Blog Automation
+
+on:
+  schedule:
+    # 매주 금요일 13:00 UTC (= 09:00 AM EDT) — 트리거 시 다음주 월~일 7일치를 미리 생성.
+    # 사용자가 깨어있는 시간이라 에러 발생 시 즉시 대응 가능. 11월 EST 전환 시 14:00 UTC로 변경 필요.
+    - cron: '0 13 * * 5'
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: '시작 날짜 YYYY-MM-DD (비우면 내일)'
+        required: false
+      days:
+        description: '며칠치 (기본 7)'
+        required: false
+        default: '7'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pynacl
+
+      - name: Create api-keys.txt from secrets
+        run: |
+          cat > api-keys.txt <<'EOF'
+          ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL=${{ secrets.ANTHROPIC_MODEL }}
+          ANTHROPIC_REVIEW_MODEL=${{ secrets.ANTHROPIC_REVIEW_MODEL }}
+          GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }}
+          IMAGEN_MODEL=${{ secrets.IMAGEN_MODEL }}
+          SHOPIFY_STORE_URL=${{ secrets.SHOPIFY_STORE_URL }}
+          SHOPIFY_ADMIN_TOKEN=${{ secrets.SHOPIFY_ADMIN_TOKEN }}
+          SHOPIFY_BLOG_HANDLE=${{ secrets.SHOPIFY_BLOG_HANDLE }}
+          PUBLISH_MODE=${{ secrets.PUBLISH_MODE }}
+          IMAGE_VARIANTS_PER_SLOT=${{ secrets.IMAGE_VARIANTS_PER_SLOT }}
+          EOF
+
+      - name: Verify API keys
+        run: python src/verify_keys.py
+
+      - name: Run weekly batch
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.start_date }}" ]; then
+            echo "[trigger] manual workflow_dispatch with start_date=${{ github.event.inputs.start_date }}"
+            python src/weekly.py --start "${{ github.event.inputs.start_date }}" --days "${{ github.event.inputs.days }}"
+          else
+            # Friday cron — generate next week (Monday through Sunday, 7 days)
+            NEXT_MON=$(date -u -d "next monday" +%Y-%m-%d)
+            echo "[trigger] Friday cron — next Monday = $NEXT_MON, generating 7 days (Mon-Sun)"
+            python src/weekly.py --start "$NEXT_MON" --days 7
+          fi
+
+      - name: Upload weekly report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-report-${{ github.run_id }}
+          path: |
+            output/weekly-batch-*.json
+            output/*-article.json
+          retention-days: 30
+
+      - name: Send result Telegram
+        if: always()
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python src/send_telegram.py
+
+      - name: Verify all days succeeded
+        if: always()
+        run: |
+          python <<'PY'
+          import glob, json, sys
+          files = sorted(glob.glob("output/weekly-batch-*.json"))
+          if not files:
+              print("::error::No weekly-batch report found")
+              sys.exit(1)
+          report = json.loads(open(files[-1], encoding="utf-8").read())
+          summaries = report.get("summaries", [])
+          failed = [s for s in summaries if s.get("status") == "failed"]
+          skipped = [s for s in summaries if s.get("status") == "skipped"]
+          success = [s for s in summaries if s.get("status") == "success"]
+          print(f"Days: {len(summaries)} | success={len(success)} failed={len(failed)} skipped={len(skipped)}")
+          for s in failed:
+              print(f"::error::{s.get('date')} FAILED — {s.get('error','')[:200]}")
+          for s in skipped:
+              print(f"::warning::{s.get('date')} SKIPPED — {s.get('error','')}")
+          if failed:
+              print("::error::One or more days failed — workflow marked as failure")
+              sys.exit(1)
+          print("All days succeeded.")
+          PY
