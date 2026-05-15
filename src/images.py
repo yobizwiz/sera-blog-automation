@@ -23,6 +23,18 @@ PERSON_PATTERNS = [
 ]
 
 
+SERA_STYLE_SUFFIX = (
+    " | Style: editorial still life photograph, muted earth tones "
+    "(cream, warm beige, soft taupe, oat, warm grey palette), "
+    "soft diffused natural window light from the side, no harsh shadows, "
+    "shallow depth of field, generous negative space, "
+    "premium minimal modern aesthetic, slightly desaturated cinematic film tones, "
+    "subtle warm grain, magazine-quality composition. "
+    "Surfaces: oak wood, marble, white linen, matte ceramic. "
+    "No people, no human figures, no body parts."
+)
+
+
 def sanitize_image_prompt(prompt):
     """Remove person references from prompt to avoid Imagen safety filter.
     Returns sanitized prompt; logs if changes were made."""
@@ -163,11 +175,8 @@ def _fallback_prompt(filename_base):
     object-only fallback from the filename (which is purely descriptive)."""
     keywords = re.sub(r"[-_]+", " ", _clean_filename(filename_base))
     return (
-        f"Editorial still life photograph: {keywords}. "
-        "No people, no human figures, no body parts. "
-        "Soft natural daylight, cream linen background, "
-        "shallow depth of field, magazine-quality composition, "
-        "warm earthy tones."
+        f"Editorial still life photograph: {keywords}."
+        + SERA_STYLE_SUFFIX
     )
 
 
@@ -180,6 +189,8 @@ def generate_image_for_slot(*, prompt, filename_base, api_key, model,
 
     # Step 1: sanitize prompt to remove person references (Imagen safety filter)
     safe_prompt = sanitize_image_prompt(prompt)
+    # Step 1b: append SERA brand style suffix for consistent muted/editorial tone
+    safe_prompt = safe_prompt + SERA_STYLE_SUFFIX
 
     last_webp = None
     last_png = None
