@@ -99,6 +99,35 @@
 - prompt / filename / alt 직접 완성.
 - Featured는 Shopify 대표만. 본문 삽입 X.
 
+### 11b. SERA 이미지 톤 & 미학 (필수)
+
+모든 이미지 프롬프트는 다음 SERA 브랜드 톤을 따라야 한다. **editorial / cinematic / muted earth tones** 미학:
+
+**색감 (palette)**
+- Muted earth tones — cream, warm beige, soft taupe, oat, mushroom, warm grey
+- 채도 약간 낮춤 (slightly desaturated), 자연스러운 cinematic film tones
+- 비비드한 채도 / 형광색 / 푸른 톤 금지
+
+**라이팅**
+- Soft diffused natural window light (옆에서 들어오는 부드러운 자연광)
+- No harsh shadows, no overhead studio light
+- Subtle warm grain, magazine-quality
+
+**구도**
+- Editorial still life photography style
+- Shallow depth of field
+- Generous negative space (한쪽이 비워짐, breathing room)
+- Premium, refined, minimal modern aesthetic
+- Slightly off-center composition (rule of thirds)
+
+**표면 & 소품**
+- Surfaces: oak wood, walnut wood, marble (white/grey veined), ceramic stoneware, white/cream linen
+- Props: matte ceramic mugs, glass coffee carafes, kraft paper bags, linen napkins, dried botanicals (제한적, 사진 한쪽 구석에만)
+- 피해야 할 표면: 광택 플라스틱, 형광 색 fabric, 너무 알록달록한 패턴
+
+**핵심 형용사**
+- elegant, refined, serene, calm, premium, minimal, editorial, cinematic, atmospheric, muted
+
 ### 11a. 이미지 프롬프트 절대 규칙 (Imagen 안전 필터 회피)
 
 이미지 프롬프트와 filename은 **무조건 사물/풍경/공간 중심**으로 작성한다. 사람을 직접/간접적으로 암시하는 어떤 단어도 들어가면 Imagen이 빈 응답(empty predictions)을 돌려줘서 자동화가 멈춘다. 다음을 절대 사용하지 말 것:
