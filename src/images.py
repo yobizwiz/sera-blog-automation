@@ -24,14 +24,18 @@ PERSON_PATTERNS = [
 
 
 SERA_STYLE_SUFFIX = (
-    " | Style: editorial still life photograph, muted earth tones "
-    "(cream, warm beige, soft taupe, oat, warm grey palette), "
-    "soft diffused natural window light from the side, no harsh shadows, "
-    "shallow depth of field, generous negative space, "
-    "premium minimal modern aesthetic, slightly desaturated cinematic film tones, "
-    "subtle warm grain, magazine-quality composition. "
-    "Surfaces: oak wood, marble, white linen, matte ceramic. "
-    "No people, no human figures, no body parts."
+    " | Style: elevated naturally lit editorial food photography, "
+    "bright and airy atmosphere, clean and inviting composition. "
+    "Palette: warm cream, golden, soft beige, light wood tones, "
+    "gentle pastel accents (natural saturation — not over-saturated, not muted). "
+    "Soft natural window light, no harsh shadows. "
+    "Background: softly blurred indistinct greenery or warm interior scenery. "
+    "Surfaces: light wood table, textured neutral linen tablecloth, "
+    "artisanal stoneware ceramic in warm cream color, white ceramic plates, simple silver utensils. "
+    "Sharp focus on the main subject, realistic textures emphasized "
+    "(flaky pastry, glossy glaze, matte ceramic, woven linen, steaming beverage). "
+    "Premium, balanced, elegant magazine-quality composition. "
+    "No people, no human figures, no body parts, no hands, no text, no labels, no logos."
 )
 
 
