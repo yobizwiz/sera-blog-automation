@@ -101,32 +101,56 @@
 
 ### 11b. SERA 이미지 톤 & 미학 (필수)
 
-모든 이미지 프롬프트는 다음 SERA 브랜드 톤을 따라야 한다. **editorial / cinematic / muted earth tones** 미학:
+모든 이미지 프롬프트는 다음 SERA 브랜드 톤을 따라야 한다. **elevated naturally lit editorial food photography** 미학:
 
 **색감 (palette)**
-- Muted earth tones — cream, warm beige, soft taupe, oat, mushroom, warm grey
-- 채도 약간 낮춤 (slightly desaturated), 자연스러운 cinematic film tones
-- 비비드한 채도 / 형광색 / 푸른 톤 금지
+- Warm cream, golden, soft beige, light wood tones, gentle pastel accents
+- **Natural saturation** — over-saturated 금지, 동시에 너무 muted/desaturated도 금지
+- 음식/음료 자체의 실제 색감 유지 (golden-brown pastry, amber tea, vibrant berry 등)
 
 **라이팅**
-- Soft diffused natural window light (옆에서 들어오는 부드러운 자연광)
-- No harsh shadows, no overhead studio light
-- Subtle warm grain, magazine-quality
+- **Elevated, naturally lit** — bright and airy atmosphere
+- Soft natural window light, no harsh shadows
+- 어두운/cinematic 무드 X, 깔끔하고 밝은 매거진 톤
 
 **구도**
-- Editorial still life photography style
-- Shallow depth of field
-- Generous negative space (한쪽이 비워짐, breathing room)
-- Premium, refined, minimal modern aesthetic
-- Slightly off-center composition (rule of thirds)
+- Editorial food photography style (Bon Appétit, Saveur 잡지 톤)
+- Sharp focus on main subject + softly blurred background
+- Background에 자연스러운 자연광 또는 indistinct greenery / interior scenery
+- Premium, balanced, elegant, clean, inviting
+- Generous negative space (한쪽이 비워짐)
 
 **표면 & 소품**
-- Surfaces: oak wood, walnut wood, marble (white/grey veined), ceramic stoneware, white/cream linen
-- Props: matte ceramic mugs, glass coffee carafes, kraft paper bags, linen napkins, dried botanicals (제한적, 사진 한쪽 구석에만)
-- 피해야 할 표면: 광택 플라스틱, 형광 색 fabric, 너무 알록달록한 패턴
+- Surfaces: **light wood table**, textured neutral **linen tablecloth**, white/cream stoneware ceramic
+- Props: artisanal stoneware ceramic in warm cream color, white ceramic plates, simple silver utensils, glass carafes, linen napkins
+- 피해야 할 것: 광택 플라스틱, 형광 색 fabric, 너무 알록달록한 패턴, 어두운 무드, 진한 그림자
+
+**텍스처 강조**
+- Realistic textures emphasized: flaky pastry, glossy glaze, matte ceramic, woven linen, steaming beverage, golden crumb
 
 **핵심 형용사**
-- elegant, refined, serene, calm, premium, minimal, editorial, cinematic, atmospheric, muted
+- elevated, naturally lit, bright, airy, clean, inviting, balanced, premium, elegant, artisanal, fresh
+
+### 11c. 이미지 프롬프트 작성 구조 템플릿
+
+매 이미지 prompt를 다음 7단 구조로 작성:
+
+1. **Opening**: 사진 종류 + 라이팅
+   - "An elevated, naturally lit photograph capturing..."
+2. **Surface**: 테이블 + 천 묘사
+   - "...on a textured neutral linen tablecloth over a light wood table."
+3. **Center subject**: 메인 객체 디테일 + 색감/텍스처
+   - "At the center is an artisanal stoneware ceramic cup in a warm cream color, filled with rich amber tea that emits subtle steam."
+4. **Supporting items**: 사이드 객체
+   - "Beside it rests a clean white ceramic plate holding a flaky, golden-brown croissant..."
+5. **Background**: 흐림 처리 + 자연광 분위기
+   - "The background is softly blurred showing indistinct green spring foliage through a window, maintaining a bright and airy atmosphere."
+6. **Composition mood**: 전체 분위기 형용사
+   - "The composition is clean, inviting, and premium."
+7. **Restrictions + Focus**:
+   - "without any text, labels, logos, hands, or people. The focus is sharp on [subject], emphasizing realistic textures."
+
+이 구조를 따라 작성하면 Imagen이 안정적으로 SERA 톤을 재현한다.
 
 ### 11a. 이미지 프롬프트 절대 규칙 (Imagen 안전 필터 회피)
 
