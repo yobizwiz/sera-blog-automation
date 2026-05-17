@@ -184,6 +184,8 @@
     "content_quality": {"score": 0-10, "reason": "..."},
     "onpage_seo": {"score": 0-10, "reason": "..."},
     "conversion_alignment": {"score": 0-10, "reason": "..."},
+    "ai_search_optimization": {"score": 0-10, "reason": "..."},
+    "eeat": {"score": 0-10, "reason": "..."},
     "body_judgment": "...",
     "page_judgment": "page-level acknowledges template deductions are template issues",
     "deductions": []
@@ -214,7 +216,12 @@ FAQ 직후 본문 HTML 인라인:
 </script>
 ```
 
-## 14c. 첫 패스 10/10 표준 (17개 자가 점검)
+## 14c. 첫 패스 10/10 표준 (5 dimension × 자가 점검)
+
+이제 평가는 **5 dimension × 10/10** = 모든 차원 10점 만족.
+
+(이전 17개 체크리스트는 구조/SEO/전환 3차원의 세부 항목. AISO와 E-E-A-T는 위 12a/12b 기준 추가 평가.)
+
 
 **구조 (10)**
 1. H1 없음
