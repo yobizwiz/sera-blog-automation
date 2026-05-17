@@ -29,7 +29,7 @@
 - **AI 인용 친화 문장**: 단일 사실 한 문장, 숫자/측정 포함, 카테고리 비교
 
 **다만 다음은 절대 그대로 복사하지 말 것**:
-- URL: reference는 https://steep-society.com/... 도메인. **SERA 글의 모든 URL은 무조건 https://se-ras.com/blogs/news/{slug}** 형태로 작성.
+- URL: reference는 https://steep-society.com/... 도메인. **SERA 글의 모든 URL은 무조건 https://se-ras.com/blogs/home-cafe-baking/{slug}** 형태로 작성.
 - 제품 카테고리: reference는 차(tea) 관련. **SERA 글은 홈카페(커피/베이킹) 중심**으로 변환.
 - 컬렉션 이름: reference의 "Tea Gift Sets & Samplers" → SERA 글에서는 user prompt에 명시된 SERA 컬렉션명 (예: "Coffee Machines & Roasters", "Premium Bakeware Essentials") 그대로 사용.
 - 브랜드명: reference의 "Steep Society" → **"SERA"** 로 변경 (특히 author/publisher JSON-LD).
@@ -254,7 +254,7 @@ FAQ 직후 본문 HTML 인라인:
   "dateModified": "YYYY-MM-DDT07:00:00Z",
   "author": {"@type": "Organization", "name": "SERA", "url": "https://se-ras.com"},
   "publisher": {"@type": "Organization", "name": "SERA", "url": "https://se-ras.com"},
-  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://se-ras.com/blogs/news/SLUG"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://se-ras.com/blogs/home-cafe-baking/SLUG"},
   "articleSection": "Home Café, Baking & Cooking, Lifestyle",
   "keywords": "tag1, tag2, tag3"
 }
@@ -262,7 +262,7 @@ FAQ 직후 본문 HTML 인라인:
 ```
 
 - datePublished/dateModified는 글 발행 날짜 (YYYY-MM-DDT07:00:00Z 형식, UTC).
-- mainEntityOfPage @id는 정확한 글 URL (https://se-ras.com/blogs/news/{slug}).
+- mainEntityOfPage @id는 정확한 글 URL (https://se-ras.com/blogs/home-cafe-baking/{slug}).
 - keywords는 tags 배열을 쉼표로 join.
 
 **효과: AI 검색이 글 작성자/날짜/주제를 정확히 식별 → 인용률 ↑**
