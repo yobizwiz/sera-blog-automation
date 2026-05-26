@@ -7,7 +7,7 @@ name: Repair Body Images
 
 on:
   schedule:
-    - cron: '20,50 * * * *'
+    - cron: '20,50 * * * 0-4,6'
   workflow_dispatch:
     inputs:
       limit:
