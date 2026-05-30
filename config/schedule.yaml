@@ -127,33 +127,33 @@
   title: "How to Make Vietnamese Iced Coffee at Home"
   cta_collection: "coffee-machines-roasters"
 "2026-06-08":
-  type: "quickfix"
-  title: "Iced Coffee Diluted Too Fast? Quick Fix"
+  type: "longtail"
+  title: "Best Home Espresso Machines Under $1000 for Cafe-Quality Shots"
   cta_collection: "coffee-machines-roasters"
 "2026-06-09":
   type: "longtail"
-  title: "Best Espresso Tampers and Distribution Tools"
+  title: "Best Espresso Tampers and Distribution Tools for Even Extraction"
   cta_collection: "espresso-parts-maintenance"
 "2026-06-10":
   type: "longtail"
-  title: "Best Beach-Day Iced Coffee Travel Mugs"
-  cta_collection: "hydration-travel-bottles"
+  title: "How to Pull a Cafe-Quality Espresso Shot at Home: Step-by-Step"
+  cta_collection: "coffee-machines-roasters"
 "2026-06-11":
   type: "longtail"
-  title: "How to Make Iced Matcha Latte at Home"
-  cta_collection: "premium-tea-blends"
+  title: "Best Milk Frothing Pitchers for Latte Art at Home"
+  cta_collection: "coffee-gadgets-small-appliances"
 "2026-06-12":
   type: "longtail"
-  title: "Best Father's Day Coffee Gift Ideas for the Café Dad"
-  cta_collection: "home-cafe-essentials"
+  title: "How to Make Cafe-Style Cappuccino at Home: Foam, Pour, Sip"
+  cta_collection: "coffee-machines-roasters"
 "2026-06-13":
-  type: "longtail"
-  title: "Best Espresso Cups and Demitasse Sets"
-  cta_collection: "dining-entertaining"
+  type: "quickfix"
+  title: "Espresso Shot Too Sour? Quick Fix in 60 Seconds"
+  cta_collection: "coffee-machines-roasters"
 "2026-06-14":
-  type: "longtail"
-  title: "Cold Foam at Home: Tools and Technique"
-  cta_collection: "coffee-gadgets-small-appliances"
+  type: "hub"
+  title: "Home Espresso Mastery Hub: Pull Cafe-Quality Shots Every Time"
+  cta_collection: "coffee-machines-roasters"
 "2026-06-15":
   type: "hub"
   title: "Father's Day Home Café Gift Hub: Tools He'll Actually Use"
@@ -252,8 +252,8 @@
   cta_collection: "coffee-machines-roasters"
 "2026-07-09":
   type: "longtail"
-  title: "Best Outdoor Grill Side Dishes from Your Café Kitchen"
-  cta_collection: "grill-outdoor-cooking"
+  title: "How to Make Cafe-Style Iced Caramel Latte at Home"
+  cta_collection: "coffee-machines-roasters"
 "2026-07-10":
   type: "quickfix"
   title: "Coffee Maker Brewing Slow? Quick Fix"
@@ -323,21 +323,21 @@
   title: "Best Café-Style Mugs and Glasses Under $30"
   cta_collection: "dining-entertaining"
 "2026-07-27":
-  type: "quickfix"
-  title: "Coffee Mug Stained? Quick Fix"
-  cta_collection: "cleaning-tools-supplies"
+  type: "longtail"
+  title: "Best Coffee Maker Cleaning Tablets and Descaling Tools"
+  cta_collection: "coffee-machines-roasters"
 "2026-07-28":
   type: "longtail"
   title: "Best Coffee Storage Containers to Keep Beans Fresh"
   cta_collection: "storage-organization-solutions"
 "2026-07-29":
   type: "quickfix"
-  title: "Iced Coffee Too Sweet? Quick Fix"
-  cta_collection: "flavor-syrups-concentrates"
+  title: "Coffee Mug Stained or Smelly? Quick Fix to Refresh"
+  cta_collection: "kitchen-utensils-gadgets"
 "2026-07-30":
-  type: "quickfix"
-  title: "Cake Frosting Melting in Heat? Quick Fix"
-  cta_collection: "premium-bakeware-essentials"
+  type: "longtail"
+  title: "How to Deep Clean Your Espresso Machine in 20 Minutes"
+  cta_collection: "espresso-parts-maintenance"
 "2026-07-31":
   type: "longtail"
   title: "July Home Café Routine Wrap-Up"
@@ -524,8 +524,8 @@
   cta_collection: "premium-tea-blends"
 "2026-09-15":
   type: "longtail"
-  title: "How to Make Café-Style Spiced Latte at Home"
-  cta_collection: "flavor-syrups-concentrates"
+  title: "How to Make Cafe-Style Masala Chai at Home (From Scratch)"
+  cta_collection: "premium-tea-blends"
 "2026-09-16":
   type: "longtail"
   title: "Best Spice Mixes for Fall Baking and Drinks"
@@ -536,8 +536,8 @@
   cta_collection: "premium-tea-blends"
 "2026-09-18":
   type: "hub"
-  title: "Cozy Home Café Setup Hub: Fall Vibes Edition"
-  cta_collection: "home-decor-accents"
+  title: "Chai, Spice & Cozy Cafe Hub: Fall Drinks at Home"
+  cta_collection: "premium-tea-blends"
 "2026-09-19":
   type: "longtail"
   title: "Best Home Café Décor Picks for Fall Vibes"
@@ -780,44 +780,44 @@
   cta_collection: "premium-bakeware-essentials"
 "2026-11-18":
   type: "hub"
-  title: "Thanksgiving Hosting Café Hub: Drinks for the Crowd"
+  title: "Holiday Cafe Gift Hub Part 2: Premium Picks Worth Splurging"
   cta_collection: "home-cafe-essentials"
 "2026-11-19":
   type: "longtail"
-  title: "How to Brew Coffee for a Crowd at Thanksgiving"
-  cta_collection: "coffee-machines-roasters"
+  title: "Best Stand Mixer Holiday Gifts for the Home Baker"
+  cta_collection: "premium-bakeware-essentials"
 "2026-11-20":
   type: "longtail"
-  title: "Best Make-Ahead Café Drinks for Holiday Hosting"
-  cta_collection: "flavor-syrups-concentrates"
+  title: "Best Coffee Subscription Box Holiday Gifts"
+  cta_collection: "coffee-machines-roasters"
 "2026-11-21":
   type: "quickfix"
   title: "Coffee Tastes Burnt? Quick Fix"
   cta_collection: "coffee-machines-roasters"
 "2026-11-22":
   type: "longtail"
-  title: "Best Thanksgiving After-Dinner Coffee Setup"
-  cta_collection: "home-cafe-essentials"
+  title: "Best Last-Minute Stocking Stuffer Cafe Picks Under $30"
+  cta_collection: "coffee-gadgets-small-appliances"
 "2026-11-23":
   type: "longtail"
-  title: "Best Hot Chocolate Bombs and DIY Café Drinks"
-  cta_collection: "flavor-syrups-concentrates"
+  title: "How to Brew Coffee for a Crowd at Thanksgiving"
+  cta_collection: "coffee-machines-roasters"
 "2026-11-24":
-  type: "quickfix"
-  title: "Pie Filling Won't Set? Quick Fix"
-  cta_collection: "premium-bakeware-essentials"
+  type: "longtail"
+  title: "Best Make-Ahead Cafe Drinks for Holiday Hosting"
+  cta_collection: "coffee-machines-roasters"
 "2026-11-25":
   type: "longtail"
   title: "Last-Minute Thanksgiving Bakeware to Buy"
   cta_collection: "premium-bakeware-essentials"
 "2026-11-26":
-  type: "longtail"
-  title: "How to Reuse Thanksgiving Leftovers for Café-Style Brunch"
-  cta_collection: "baking-cooking-essentials"
-"2026-11-27":
   type: "hub"
-  title: "Black Friday Home Café Deal Hub: What's Worth It"
+  title: "Thanksgiving Day Home Cafe Hub: Drinks for the Crowd"
   cta_collection: "home-cafe-essentials"
+"2026-11-27":
+  type: "longtail"
+  title: "How to Reuse Thanksgiving Leftovers for Cafe-Style Brunch"
+  cta_collection: "baking-cooking-essentials"
 "2026-11-28":
   type: "longtail"
   title: "Best Black Friday Coffee Gift Deals to Watch"
