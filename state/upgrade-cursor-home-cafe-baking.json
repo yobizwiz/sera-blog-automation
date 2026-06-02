@@ -1,5 +1,13 @@
 {
-  "processed_ids": [],
+  "processed_ids": [
+    "563420266609",
+    "563420299377",
+    "563420332145",
+    "571676295281",
+    "571676885105",
+    "571676917873",
+    "571676950641"
+  ],
   "started_at": "2026-06-02T00:08:54.634302",
   "_note": "Reset to reprocess all with Opus 4.8 + Gemini (gemini-pro-latest stable)."
 }
