@@ -26,11 +26,19 @@ NOTEXT = (" ABSOLUTELY NO visible text, letters, words, numbers, labels, logos, 
           "bag, jar, canister and machine must be completely unbranded with blank, plain "
           "surfaces and no writing of any kind.")
 
+REALISM = (" The scene must be PHYSICALLY REALISTIC and coherent: every object rests stably "
+           "on a surface or sits in a natural finished state. NO kettle, carafe, pitcher, jug "
+           "or portafilter floating in mid-air or pouring liquid by itself without support — "
+           "show the finished drink or the equipment resting on the counter. A portafilter "
+           "must be locked into an espresso machine, never detached and pouring. If the "
+           "article is about a specific appliance or tool, that item is the realistic hero of "
+           "the shot. No impossible physics.")
+
 # handle -> 1-based slot indices (reading order) to regenerate
 TARGETS = {
-    "best-mothers-day-coffee-gifts": [1],            # img#1 kettle had "Edoster" fake brand
-    "memorial-day-iced-coffee-ideas-hosting": [1],   # img#1 syrup-bottle fake labels
-    "refresh-home-cafe-shelf-for-summer": [2],       # img#2 nonsensical package labels (flat-lay)
+    "best-home-espresso-machines-under-1000": [1],             # floating portafilter pouring espresso (impossible)
+    "pour-over-vs-drip-coffee-at-home": [1],                   # gooseneck kettle floating mid-pour
+    "how-to-brew-cold-brew-coffee-at-home-step-by-step": [2],  # carafe floating mid-pour
 }
 
 
@@ -77,7 +85,7 @@ def refine_one(env, art, slots):
         spec = specs[s - 1]
         log(f"refine: {title[:45]} slot#{s} ({spec.get('filename','')})")
         r = generate_image_for_slot(
-            prompt=spec["prompt"] + NOTEXT, filename_base=spec["filename"],
+            prompt=spec["prompt"] + NOTEXT + REALISM, filename_base=spec["filename"],
             api_key=google_key, model=imagen_model, variants=variants,
             aspect_ratio="16:9", anthropic_key=env["ANTHROPIC_API_KEY"],
             max_vision_retries=2)
