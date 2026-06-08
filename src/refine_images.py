@@ -36,9 +36,7 @@ REALISM = (" The scene must be PHYSICALLY REALISTIC and coherent: every object r
 
 # handle -> 1-based slot indices (reading order) to regenerate
 TARGETS = {
-    "vietnamese-iced-coffee-at-home": [1],            # phin lid floating in mid-air
-    "cafe-quality-espresso-shot-at-home": [1],        # portafilter basket slightly floating
-    "home-espresso-mastery-hub": [1, 2, 3],           # stream-from-sky / melty extraction / overfilled foam pitcher
+    "home-espresso-mastery-hub": [1, 2, 3],           # retry: stream-from-sky / melty extraction / overfilled foam
 }
 
 
