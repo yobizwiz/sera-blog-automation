@@ -26,17 +26,11 @@ NOTEXT = (" ABSOLUTELY NO visible text, letters, words, numbers, labels, logos, 
           "bag, jar, canister and machine must be completely unbranded with blank, plain "
           "surfaces and no writing of any kind.")
 
-REALISM = (" The scene must be PHYSICALLY REALISTIC and coherent: every object rests stably "
-           "on a surface or sits in a natural finished state. NO kettle, carafe, pitcher, jug "
-           "or portafilter floating in mid-air or pouring liquid by itself without support — "
-           "show the finished drink or the equipment resting on the counter. A portafilter "
-           "must be locked into an espresso machine, never detached and pouring. If the "
-           "article is about a specific appliance or tool, that item is the realistic hero of "
-           "the shot. No impossible physics.")
+REALISM = (" The scene must be PHYSICALLY REALISTIC and coherent, with NO active pouring of any liquid: do not show liquid mid-pour from any kettle, carafe, pitcher, server or portafilter, and nothing floating in mid-air. Instead show the equipment AT REST (e.g. a pour-over dripper seated on its carafe with brewed coffee already collected below, the kettle resting on the counter beside it) or the finished drink. A portafilter must be locked into an espresso machine, never detached. If the article is about a specific appliance or tool, that item is the realistic hero, sitting naturally on the surface. No impossible physics.")
 
 # handle -> 1-based slot indices (reading order) to regenerate
 TARGETS = {
-    "home-espresso-mastery-hub": [1, 2, 3],           # retry: stream-from-sky / melty extraction / overfilled foam
+    "pour-over-vs-drip-coffee-at-home": [1],          # still showed floating self-pouring kettle
 }
 
 
