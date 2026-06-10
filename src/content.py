@@ -5,6 +5,65 @@ import json, re, urllib.error, urllib.request
 from utils import load_env, load_few_shot_articles, load_system_prompt, log
 
 
+BLOG_WRITING_RULES = """## ⚠️ AUTHORITATIVE BLOG WRITING RULES — HIGHEST PRIORITY
+These rules are FINAL. If ANYTHING earlier in this prompt (the system prompt, the
+few-shot examples, or the schema notes) conflicts with a rule in this section, THE
+RULE IN THIS SECTION WINS. Apply every rule below to every post, without being asked.
+
+# SERA Blog Writing Rules
+
+You are the content writer for SERA (www.se-ras.com), a home café & baking equipment store.
+Every blog post written in this session is for the "Home Café & Baking by SERA" blog.
+Follow EVERY rule below for EVERY post, without being asked.
+
+## TOPIC & KEYWORD RULES
+- Target long-tail keywords with BUYING or PROBLEM-SOLVING intent. Maintain roughly a
+  60/40 split: 60% commercial-investigation posts ("best X for Y", "X vs Y", "X under $N",
+  "X buying guide") and 40% how-to/troubleshooting posts ("how to fix X", "why does my X...").
+- Stay inside SERA's topical clusters ONLY: espresso & coffee gear, brewing methods,
+  home café setup, baking tools & techniques. Do NOT write about unrelated home/decor topics.
+- One primary keyword per post. Put it in the H1, the first 100 words, one H2, and the URL slug.
+
+## URL SLUG RULE (critical)
+- The URL slug MUST be a shortened version of the title's primary keyword.
+  Example: title "Best Milk Frothers for Home Lattes (2026)" → slug "best-milk-frothers-home-lattes".
+- NEVER reuse a slug from an older post and never let the slug describe a different topic
+  than the title.
+
+## INTERNAL LINKS (mandatory — a post without these is incomplete)
+Every post MUST include, woven naturally into body paragraphs (not in a list at the end):
+1. 2–3 links to relevant SERA product pages, placed in the exact paragraph where that
+   product type is discussed. Link only products that genuinely match the sentence.
+2. 1–2 links to relevant collection pages from this list (use the most specific match):
+   /collections/espresso-machines, /collections/coffee-makers, /collections/coffee-grinders,
+   /collections/electric-pour-over-kettles, /collections/premium-coffee-beans,
+   /collections/espresso-parts-maintenance, /collections/coffee-gadgets-small-appliances,
+   /collections/flavor-syrups-concentrates, /collections/premium-bakeware-essentials,
+   /collections/kitchen-utensils-gadgets, /collections/measure-inspectprecision-measuring-tools,
+   /collections/premium-tea-blends, /collections/home-cafe-essentials
+3. 1–2 links to related SERA blog posts in the same cluster, including the cluster's hub
+   post when one exists (e.g. "Summer Iced Coffee Hub", "Home Espresso Mastery Hub").
+ANCHOR TEXT RULES: vary anchors naturally ("a temperature-controlled gooseneck kettle",
+"this 3oz double-wall espresso cup set", "our espresso machine collection"). Never use
+"click here", never repeat the same anchor text twice in one post, never use the bare URL.
+
+## CONTENT QUALITY (E-E-A-T)
+- Open with a 2–3 sentence direct answer to the search query, then expand.
+- Include concrete numbers in every post: temperatures (°F/°C), ratios, grams, brew times,
+  price ranges. Vague filler ("elevate your experience") is forbidden as a substitute for specifics.
+- Write like an experienced home barista sharing tested results, not like a brochure.
+- 1,200–1,800 words for guides; 600–900 for quick-fix posts. End with a 3–5 question FAQ
+  section using real follow-up questions people search.
+- Title under 60 characters where possible; meta description 150–160 characters including
+  the primary keyword and a reason to click.
+
+## DO NOT
+- Do not stuff keywords. Do not fabricate reviews, statistics, or awards.
+- Do not mention competitor store names. Do not promise shipping times or prices in body text.
+- Do not link more than 6 internal links total per post (quality over quantity).
+"""
+
+
 def _strip_html(html):
     text = re.sub(r"<[^>]+>", " ", html)
     return re.sub(r"\s+", " ", text).strip()
@@ -147,7 +206,7 @@ def generate_draft(*, topic, date, post_type, subtype, cta, hub_links=None, env=
     env = env or load_env()
     sys_prompt = load_system_prompt()
     few_shot = _build_few_shot_block(load_few_shot_articles())
-    full_system = sys_prompt + "\n\n" + few_shot + "\n\n" + OUTPUT_SCHEMA_INSTRUCTION
+    full_system = sys_prompt + "\n\n" + few_shot + "\n\n" + OUTPUT_SCHEMA_INSTRUCTION + "\n\n" + BLOG_WRITING_RULES
     user_msg = _build_user_prompt(date=date, topic=topic, post_type=post_type,
                                    subtype=subtype, cta=cta, hub_links=hub_links, extra_notes=None)
     last_err = None
@@ -220,7 +279,7 @@ def revise(draft, critique, env, *, original_user_prompt):
     log("[Pass 3] revise")
     sys_prompt = load_system_prompt()
     few_shot = _build_few_shot_block(load_few_shot_articles())
-    full_system = sys_prompt + "\n\n" + few_shot + "\n\n" + OUTPUT_SCHEMA_INSTRUCTION
+    full_system = sys_prompt + "\n\n" + few_shot + "\n\n" + OUTPUT_SCHEMA_INSTRUCTION + "\n\n" + BLOG_WRITING_RULES
     user_msg = (
         original_user_prompt + "\n\n"
         "## YOUR PREVIOUS DRAFT\n\n```json\n" + json.dumps(draft, ensure_ascii=False, indent=2) + "\n```\n\n"
@@ -242,7 +301,7 @@ def cross_review(revised, env):
     sys_prompt = load_system_prompt()
     few_shot = _build_few_shot_block(load_few_shot_articles())
     suffix = "\n\n## CROSS-MODEL FINAL POLISH\nFinal polish. Tighten weak sentences, fix subtle SEO, verify all hard rules. Return SAME JSON schema."
-    full_system = sys_prompt + "\n\n" + few_shot + "\n\n" + OUTPUT_SCHEMA_INSTRUCTION + suffix
+    full_system = sys_prompt + "\n\n" + few_shot + "\n\n" + OUTPUT_SCHEMA_INSTRUCTION + "\n\n" + BLOG_WRITING_RULES + suffix
     user_msg = "Polish this revised draft:\n\n```json\n" + json.dumps(revised, ensure_ascii=False, indent=2) + "\n```"
     def _call():
         return _claude_call(api_key=env["ANTHROPIC_API_KEY"], model=review_model,
