@@ -1,0 +1,209 @@
+# 마진 연동 조준표 (SERA). Steep과 동일 스키마.
+# hero=core(주력·Our Pick·CTA 직링크), bait=미끼. 원본: sera_targeting_2026-08-06.yaml (2026-08-06 검증)
+
+sera:
+  clusters:
+    espresso-machines:
+      collections:
+      - espresso-machines
+      - coffee-machines-roasters
+      - coffee-makers
+      - espresso-parts-maintenance
+      hero:
+      - handle: b0dqfcrfpj
+        title: Bosch 500 Series Fully Automatic Espresso and Coffee Machine
+        button: 'Shop our pick: Bosch 500 Series Fully Automatic'
+      - handle: b0f6vpf645
+        title: Philips Baristina Espresso Machine+Milk Frother Bundle. Real
+        button: 'Shop our pick: Philips Baristina Espresso Machine'
+      - handle: b0d53126xj
+        title: Casabrews Ultra Espresso Machine with LCD Display, Powerful
+        button: 'Shop our pick: Casabrews Ultra Espresso Machine with'
+      - handle: b0b93s4zzz
+        title: Pitcher Rinser Glass Rinser Espresso Rinser Drain and Drip T
+        button: 'Shop our pick: Pitcher Rinser Glass Rinser Espresso'
+      bait:
+      - brand: Flexzion
+        handle: b013dlcmqc
+        title: Flexzion Espresso Tamper 51mm Diameter Stainless S
+      - brand: CASABREWS
+        handle: b0dwx51r9r
+        title: Casabrews CM7036E Espresso Machine for Nespresso O
+    coffee-gear:
+      collections:
+      - home-cafe-essentials
+      - coffee-gadgets-small-appliances
+      - electric-pour-over-kettles
+      hero:
+      - handle: b0dqfcrfpj
+        title: Bosch 500 Series Fully Automatic Espresso and Coffee Machine
+        button: 'Shop our pick: Bosch 500 Series Fully Automatic'
+      - handle: b0cwmz6b1k
+        title: KoolMore KM-DW2445-PR 24-Inch Panel Ready Dishwasher – 14 Pl
+        button: 'Shop our pick: KoolMore KM'
+      - handle: b0f6vpf645
+        title: Philips Baristina Espresso Machine+Milk Frother Bundle. Real
+        button: 'Shop our pick: Philips Baristina Espresso Machine'
+      - handle: b0d53126xj
+        title: Casabrews Ultra Espresso Machine with LCD Display, Powerful
+        button: 'Shop our pick: Casabrews Ultra Espresso Machine with'
+      bait:
+      - brand: DOWAN
+        handle: b07rt4sdfs
+        title: Dowan Pour Over Coffee Dripper, Non Electric Pour
+      - brand: InfuSio
+        handle: b08lvzh5xx
+        title: InfuSio Almond Amaretto Coffee pods, Single Serve
+    beans-syrups-tea:
+      collections:
+      - premium-coffee-beans
+      - flavor-syrups-concentrates
+      - premium-tea-blends
+      hero:
+      - handle: b07s4bz7q1
+        title: Brooklyn Coffee Whole Bean, Classic Medium Roast (5lb) Balan
+        button: 'Shop our pick: Brooklyn Coffee Whole Bean'
+      - handle: b0fdh7yz9h
+        title: VitaCup Focus Mushroom Coffee Pods, Vanilla Flavored Coffee
+        button: 'Shop our pick: VitaCup Focus Mushroom Coffee Pods'
+      - handle: b0fhrmbwdz
+        title: Coffee Bean Direct Indian Monsooned Malabar, Whole Bean Coff
+        button: 'Shop our pick: Coffee Bean Direct Indian Monsooned'
+      - handle: b000sdmfc0
+        title: Lavazza Tierra! Selection Whole Bean Coffee Blend, Medium Ro
+        button: 'Shop our pick: Lavazza Tierra'
+      bait:
+      - brand: DaVinciGourmet
+        handle: b09dz16n4w
+        title: DaVinci Gourmet Blood Orange Syrup, 25.4 Fluid Oun
+      - brand: LavazzaCoffee
+        handle: b00pqkrxdg
+        title: Lavazza Italian Roast Ground Coffee 12oz Bag, Extr
+    baking-cookware:
+      collections:
+      - baking-cooking-essentials
+      - premium-bakeware-essentials
+      - professional-cookware-pots
+      - cooking-baking-pantry-staples
+      hero:
+      - handle: b0bgqfztqy
+        title: Hestan Provisions OvenBond – 5-Piece Tri-ply Baking Sheet Se
+        button: 'Shop our pick: Hestan Provisions OvenBond'
+      - handle: b0dvbltwkm
+        title: Gourmia 7 Qt Stand Mixer w/Attachments, Bowl Shield, Dough H
+        button: 'Shop our pick: Gourmia 7 Qt Stand Mixer'
+      - handle: b082x75ngv
+        title: NutriChef 10-Piece Nonstick Kitchen Oven Baking Pans - Premi
+        button: 'Shop our pick: NutriChef 10'
+      - handle: b0cws4bdtm
+        title: NutriChef Premium 10-Piece Bakeware Set - Flexible Nonstick
+        button: 'Shop our pick: NutriChef Premium 10'
+      bait:
+      - brand: PERLLI
+        handle: b078x1py9s
+        title: Perlli Non-Stick 10-Piece Baking Pan Set, BPA-Free
+      - brand: GoNanas
+        handle: b09rq56ymw
+        title: GoNanas Banana Bread Mix Variety Pack. Vegan, Glut
+    utensils-measuring:
+      collections:
+      - kitchen-utensils-gadgets
+      - measure-inspectprecision-measuring-tools
+      hero:
+      - handle: b09kbd72nv
+        title: ChefWave Milkmade Dairy Alternative Vegan Nut Milk Maker Mac
+        button: 'Shop our pick: ChefWave Milkmade Dairy Alternative Vegan'
+      - handle: b091pz9n38
+        title: Bladesmith Meat Cleaver Butcher Axe Bone Chopper Heavy Duty
+        button: 'Shop our pick: Bladesmith Meat Cleaver Butcher Axe'
+      - handle: b07yp9kn8p
+        title: KitchenAid KQ909 Dual Platform Digital Kitchen and Food Scal
+        button: 'Shop our pick: KitchenAid KQ909 Dual Platform Digital'
+      - handle: b0dcv9v2pv
+        title: Cleaver Knife 7 Inch, Ultra Sharp Japanese High Carbon Steel
+        button: 'Shop our pick: Cleaver Knife 7 Inch'
+      bait:
+      - brand: Bonsenkitchen
+        handle: b0dpmqghxh
+        title: Bonsenkitchen Hand Blender, Immersion Blender with
+      - brand: LamsonKitchenKnivesTools
+        handle: b0006gsp1y
+        title: Lamson 3' x 6 inch Chef's Slotted Turner with Walnut H
+    dining-decor:
+      collections:
+      - dining-entertaining
+      - kitchen-table-linens
+      - home-decor-accents
+      - dining-home-decor
+      hero:
+      - handle: b07btgtbsm
+        title: Polyte Premium Microfiber Kitchen Dish Hand Towel Waffle Wea
+        button: 'Shop our pick: Polyte Premium Microfiber Kitchen Dish'
+      - handle: b0bgk9k8vh
+        title: 600pcs Compostable Biodegradable Sugarcane Straws Disposable
+        button: 'Shop our pick: 600pcs Compostable Biodegradable Sugarcane Straws'
+      - handle: b09s2xkzg5
+        title: Polyte Ultra Premium Microfiber Kitchen Dish Hand Towel Waff
+        button: 'Shop our pick: Polyte Ultra Premium Microfiber Kitchen'
+      - handle: b08z796dgz
+        title: Maoname Orange Serving Tray with Handles, Modern Decorative
+        button: 'Shop our pick: Maoname Orange Serving Tray with'
+      bait:
+      - brand: Libbey
+        handle: b07qpbpfyj
+        title: Libbey Polaris Tumbler and Rocks Glass Set, Elegan
+      - brand: Oneida
+        handle: b01j6irxns
+        title: Oneida Nocha Everyday Flatware Cocktail Spreaders
+    storage-cleaning:
+      collections:
+      - storage-organization-solutions
+      - cleaning-tools-supplies
+      - home-organization-essentials
+      hero:
+      - handle: b0915x4bbp
+        title: HAVA Countertop Dishwasher – 6 Programs, 5L Built-in Water T
+        button: 'Shop our pick: HAVA Countertop Dishwasher'
+      - handle: b083lvty29
+        title: Xkzg Storage Bench Wooden Shoe Rack Bench Rustic Solid Wood
+        button: 'Shop our pick: Xkzg Storage Bench Wooden Shoe'
+      - handle: b0dkf2sj1b
+        title: Qimedo Upgrade 1200 RPM Battery Electric Spin Scrubber, High
+        button: 'Shop our pick: Qimedo Upgrade 1200 RPM Battery'
+      - handle: b0bcn3zsk5
+        title: Bamboo Drawer Organizer, 2 Pack - Expandable Silverware Orga
+        button: 'Shop our pick: Bamboo Drawer Organizer'
+      bait:
+      - brand: Vtopmart
+        handle: b087g4t7vn
+        title: Vtopmart 4 PCS Large Food Storage Containers 5.2L
+      - brand: OGGI
+        handle: b08v5jl1ys
+        title: Oggi Jumbo 8 inch Stainless Steel Flour Clamp Canister
+    togo-outdoor:
+      collections:
+      - hydration-travel-bottles
+      - lunch-boxes-food-jars
+      - coolers-insulated-bags
+      - picnic-outdoor-dining
+      - grill-outdoor-cooking
+      hero:
+      - handle: b0dnftwyc7
+        title: 'Sync One Smart Wireless Meat Thermometer: Standalone Base wi'
+        button: 'Shop our pick: Sync One Smart Wireless Meat'
+      - handle: b0bbj2dhtn
+        title: Clear Glass Bottles with Lids 18 oz, Reusable Glass Water Bo
+        button: 'Shop our pick: Clear Glass Bottles with Lids'
+      - handle: b0748dcdgc
+        title: 'Rapicca 932°F Heat Resistant BBQ Grill Gloves: Oil Resistant'
+        button: 'Shop our pick: Rapicca 932'
+      - handle: b07fdyrkxy
+        title: 'Rapicca 700°F Heat Resistant BBQ Grill Gloves: Oil Resistant'
+        button: 'Shop our pick: Rapicca 700'
+      bait:
+      - brand: Outset
+        handle: b07d1jhhhz
+        title: Outset 76441 Professional High Temperature Heat De
+      - brand: GreensSteel
+        handle: b0bzxnn4qr
+        title: Beast 10 oz Tumbler Stainless Steel Vacuum Insulat

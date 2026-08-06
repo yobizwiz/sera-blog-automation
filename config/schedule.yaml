@@ -381,7 +381,9 @@
 "2026-08-10":
   type: "longtail"
   title: "Best Bento Box Setups for Adult Workday Lunch"
-  cta_collection: "lunch-boxes-food-jars"
+  funnel: "commercial"
+  cluster: "togo-outdoor"
+  cta_product: "b0dnftwyc7"
 "2026-08-11":
   type: "hub"
   title: "Workday Home Café Hub: Mornings That Actually Get You Out"
@@ -389,11 +391,15 @@
 "2026-08-12":
   type: "longtail"
   title: "Best Quick-Brew Coffee Makers for Busy Mornings"
-  cta_collection: "coffee-machines-roasters"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0dqfcrfpj"
 "2026-08-13":
   type: "longtail"
   title: "How to Build a 5-Minute Café Routine Before Work"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b07s4bz7q1"
 "2026-08-14":
   type: "quickfix"
   title: "Coffee Maker Won't Turn On? Quick Fix"
@@ -405,11 +411,15 @@
 "2026-08-16":
   type: "longtail"
   title: "How to Store Pastries So They Stay Fresh All Week"
-  cta_collection: "storage-organization-solutions"
+  funnel: "commercial"
+  cluster: "storage-cleaning"
+  cta_product: "b0915x4bbp"
 "2026-08-17":
   type: "longtail"
   title: "Best Bakeware to Refresh Before Fall Baking Season"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0bgqfztqy"
 "2026-08-18":
   type: "hub"
   title: "Late Summer Iced Café Hub: Last Hot Days Drinks"
@@ -417,7 +427,9 @@
 "2026-08-19":
   type: "longtail"
   title: "Best Cold Brew Filter Bags and Reusable Filters"
-  cta_collection: "espresso-parts-maintenance"
+  funnel: "commercial"
+  cluster: "togo-outdoor"
+  cta_product: "b0bbj2dhtn"
 "2026-08-20":
   type: "quickfix"
   title: "Cold Brew Sediment Cloudy? Quick Fix"
@@ -425,11 +437,15 @@
 "2026-08-21":
   type: "longtail"
   title: "How to Transition Your Café Shelf from Iced to Hot"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "storage-cleaning"
+  cta_product: "b083lvty29"
 "2026-08-22":
   type: "longtail"
   title: "Best Coffee Storage Canisters Under $40"
-  cta_collection: "storage-organization-solutions"
+  funnel: "commercial"
+  cluster: "storage-cleaning"
+  cta_product: "b0dkf2sj1b"
 "2026-08-23":
   type: "longtail"
   title: "How to Clean and Descale Your Espresso Machine"
@@ -445,11 +461,15 @@
 "2026-08-26":
   type: "longtail"
   title: "Best Peach and Berry Pie Recipes"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0dvbltwkm"
 "2026-08-27":
   type: "longtail"
   title: "How to Make Café-Style Galette at Home"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0cwmz6b1k"
 "2026-08-28":
   type: "quickfix"
   title: "Pie Crust Too Tough? Quick Fix"
@@ -457,7 +477,9 @@
 "2026-08-29":
   type: "longtail"
   title: "Best Kitchen Utensils Every Home Baker Should Own"
-  cta_collection: "kitchen-utensils-gadgets"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b082x75ngv"
 "2026-08-30":
   type: "quickfix"
   title: "Measuring Cups Sticky? Quick Fix"
@@ -465,19 +487,27 @@
 "2026-08-31":
   type: "longtail"
   title: "August Home Café Routine Wrap-Up"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0dqfcrfpj"
 "2026-09-01":
   type: "longtail"
   title: "Best Coffee Blends for Cooler Fall Mornings"
-  cta_collection: "premium-coffee-beans"
+  funnel: "commercial"
+  cluster: "togo-outdoor"
+  cta_product: "b0748dcdgc"
 "2026-09-02":
   type: "longtail"
   title: "How to Transition from Iced to Hot Latte Routine"
-  cta_collection: "coffee-machines-roasters"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0f6vpf645"
 "2026-09-03":
   type: "longtail"
   title: "Best Back-to-Routine Café Setup Ideas"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0f6vpf645"
 "2026-09-04":
   type: "hub"
   title: "Fall Home Café Transition Hub: From Iced to Cozy"
@@ -493,7 +523,9 @@
 "2026-09-07":
   type: "longtail"
   title: "Best Labor Day Brunch Café Setup Ideas"
-  cta_collection: "dining-entertaining"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b0fdh7yz9h"
 "2026-09-08":
   type: "quickfix"
   title: "Pumpkin Spice Too Sweet? Quick Fix"
@@ -501,11 +533,15 @@
 "2026-09-09":
   type: "longtail"
   title: "Best Stovetop Espresso Makers (Moka Pots) Reviewed"
-  cta_collection: "coffee-machines-roasters"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0d53126xj"
 "2026-09-10":
   type: "longtail"
   title: "How to Make Foam Without an Espresso Machine"
-  cta_collection: "coffee-gadgets-small-appliances"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0b93s4zzz"
 "2026-09-11":
   type: "hub"
   title: "Pumpkin Spice Season Hub: Lattes, Bakes, and Beyond"
@@ -513,7 +549,9 @@
 "2026-09-12":
   type: "longtail"
   title: "Best Pumpkin Bread Recipes for Café-Style Mornings"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0cws4bdtm"
 "2026-09-13":
   type: "quickfix"
   title: "Latte Foam Disappearing? Quick Fix"
@@ -521,7 +559,9 @@
 "2026-09-14":
   type: "longtail"
   title: "Best Chai Latte Recipes to Make at Home"
-  cta_collection: "premium-tea-blends"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0d53126xj"
 "2026-09-15":
   type: "longtail"
   title: "How to Make Cafe-Style Masala Chai at Home (From Scratch)"
@@ -529,7 +569,9 @@
 "2026-09-16":
   type: "longtail"
   title: "Best Spice Mixes for Fall Baking and Drinks"
-  cta_collection: "cooking-baking-pantry-staples"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0bgqfztqy"
 "2026-09-17":
   type: "quickfix"
   title: "Chai Tastes Watered Down? Quick Fix"
@@ -541,19 +583,27 @@
 "2026-09-19":
   type: "longtail"
   title: "Best Home Café Décor Picks for Fall Vibes"
-  cta_collection: "home-decor-accents"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0dqfcrfpj"
 "2026-09-20":
   type: "longtail"
   title: "Best Kitchen Linens to Refresh for Fall"
-  cta_collection: "kitchen-table-linens"
+  funnel: "commercial"
+  cluster: "dining-decor"
+  cta_product: "b07btgtbsm"
 "2026-09-21":
   type: "longtail"
   title: "How to Create a Café-Inspired Reading Nook"
-  cta_collection: "home-decor-accents"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b0fhrmbwdz"
 "2026-09-22":
   type: "longtail"
   title: "Best Apple-Based Café Recipes for First Day of Fall"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0cwmz6b1k"
 "2026-09-23":
   type: "quickfix"
   title: "Apple Cake Soggy in the Middle? Quick Fix"
@@ -561,7 +611,9 @@
 "2026-09-24":
   type: "longtail"
   title: "Best Cinnamon Roll Recipes to Make at Home"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "utensils-measuring"
+  cta_product: "b09kbd72nv"
 "2026-09-25":
   type: "hub"
   title: "Fall Cozy Baking Hub: Cinnamon, Apple, Spice"
@@ -573,7 +625,9 @@
 "2026-09-27":
   type: "longtail"
   title: "Best Coffee Mugs for Cozy Fall Mornings"
-  cta_collection: "dining-entertaining"
+  funnel: "commercial"
+  cluster: "dining-decor"
+  cta_product: "b0bgk9k8vh"
 "2026-09-28":
   type: "quickfix"
   title: "Coffee Machine Filter Clogged? Quick Fix"
@@ -581,19 +635,27 @@
 "2026-09-29":
   type: "longtail"
   title: "How to Pair Coffee with Fall Baked Goods"
-  cta_collection: "premium-coffee-beans"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0dvbltwkm"
 "2026-09-30":
   type: "longtail"
   title: "September Home Café Routine Wrap-Up"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b000sdmfc0"
 "2026-10-01":
   type: "longtail"
   title: "Best Fall Coffee Roasts for October Mornings"
-  cta_collection: "premium-coffee-beans"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b07s4bz7q1"
 "2026-10-02":
   type: "longtail"
   title: "How to Build a Halloween Café Bar at Home"
-  cta_collection: "home-decor-accents"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0f6vpf645"
 "2026-10-03":
   type: "longtail"
   title: "Best Halloween-Themed Bakeware for Spooky Treats"
@@ -605,11 +667,15 @@
 "2026-10-05":
   type: "longtail"
   title: "Best Pumpkin Carving Cookie Recipes"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b082x75ngv"
 "2026-10-06":
   type: "longtail"
   title: "How to Make Spider Web Latte Art for Halloween"
-  cta_collection: "coffee-gadgets-small-appliances"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0dqfcrfpj"
 "2026-10-07":
   type: "quickfix"
   title: "Cookie Dough Too Sticky? Quick Fix"
@@ -617,11 +683,15 @@
 "2026-10-08":
   type: "longtail"
   title: "Best Caramel Apple Drinks and Treats"
-  cta_collection: "flavor-syrups-concentrates"
+  funnel: "commercial"
+  cluster: "utensils-measuring"
+  cta_product: "b091pz9n38"
 "2026-10-09":
   type: "longtail"
   title: "Best Halloween Cookie Cutters and Decorating Tools"
-  cta_collection: "kitchen-utensils-gadgets"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0cws4bdtm"
 "2026-10-10":
   type: "longtail"
   title: "How to Make Café-Style Hot Chocolate at Home"
@@ -637,15 +707,21 @@
 "2026-10-13":
   type: "longtail"
   title: "Best Slow-Sunday Brunch Bake Recipes"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0bgqfztqy"
 "2026-10-14":
   type: "longtail"
   title: "How to Make Café-Style Bagels at Home"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0d53126xj"
 "2026-10-15":
   type: "longtail"
   title: "Best Toaster Picks for Café-Style Breakfast"
-  cta_collection: "coffee-gadgets-small-appliances"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0f6vpf645"
 "2026-10-16":
   type: "quickfix"
   title: "Toast Burning Unevenly? Quick Fix"
@@ -653,7 +729,9 @@
 "2026-10-17":
   type: "longtail"
   title: "Best Pumpkin Pie Recipes (Café-Quality)"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0dvbltwkm"
 "2026-10-18":
   type: "hub"
   title: "Pumpkin Baking Hub: Beyond Just Pie"
@@ -665,11 +743,15 @@
 "2026-10-20":
   type: "longtail"
   title: "Best Maple-Infused Coffee and Bake Recipes"
-  cta_collection: "flavor-syrups-concentrates"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b082x75ngv"
 "2026-10-21":
   type: "longtail"
   title: "How to Make Café-Style French Toast at Home"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b0fdh7yz9h"
 "2026-10-22":
   type: "quickfix"
   title: "French Toast Soggy? Quick Fix"
@@ -677,11 +759,15 @@
 "2026-10-23":
   type: "longtail"
   title: "Best Cozy Coffee Mugs and Stoneware Sets"
-  cta_collection: "dining-entertaining"
+  funnel: "commercial"
+  cluster: "dining-decor"
+  cta_product: "b09s2xkzg5"
 "2026-10-24":
   type: "longtail"
   title: "Best Halloween Party Café Drink Ideas"
-  cta_collection: "flavor-syrups-concentrates"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0dqfcrfpj"
 "2026-10-25":
   type: "hub"
   title: "Halloween Hosting Hub: Café Drinks + Spooky Treats"
@@ -689,11 +775,15 @@
 "2026-10-26":
   type: "longtail"
   title: "Best Pumpkin Spice Cookie Recipes"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0cws4bdtm"
 "2026-10-27":
   type: "longtail"
   title: "How to Pair Coffee with Halloween Candy"
-  cta_collection: "premium-coffee-beans"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0d53126xj"
 "2026-10-28":
   type: "quickfix"
   title: "Cookies Hard the Next Day? Quick Fix"
@@ -709,19 +799,27 @@
 "2026-10-31":
   type: "longtail"
   title: "October Home Café Routine Wrap-Up"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b0fhrmbwdz"
 "2026-11-01":
   type: "longtail"
   title: "Best Coffee Beans to Stock for November Mornings"
-  cta_collection: "premium-coffee-beans"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b000sdmfc0"
 "2026-11-02":
   type: "longtail"
   title: "How to Plan Your Thanksgiving Dessert Bake Schedule"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0bgqfztqy"
 "2026-11-03":
   type: "longtail"
   title: "Best Pie Pans for Thanksgiving Bakes"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0dvbltwkm"
 "2026-11-04":
   type: "hub"
   title: "Thanksgiving Baking Hub: Pies, Cookies, and Breads"
@@ -729,11 +827,15 @@
 "2026-11-05":
   type: "longtail"
   title: "Best Apple Pie Recipes Worth Making"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b082x75ngv"
 "2026-11-06":
   type: "longtail"
   title: "Best Pecan Pie Recipes (Café-Quality)"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0cws4bdtm"
 "2026-11-07":
   type: "longtail"
   title: "How to Brew Coffee That Pairs with Pie"
@@ -745,11 +847,15 @@
 "2026-11-09":
   type: "longtail"
   title: "Best Mixing Bowls and Pastry Tools for Holiday Baking"
-  cta_collection: "kitchen-utensils-gadgets"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0bgqfztqy"
 "2026-11-10":
   type: "longtail"
   title: "Best Stand Mixer Alternatives for Small Kitchens"
-  cta_collection: "coffee-gadgets-small-appliances"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0dvbltwkm"
 "2026-11-11":
   type: "quickfix"
   title: "Whipped Cream Won't Whip? Quick Fix"
@@ -761,11 +867,15 @@
 "2026-11-13":
   type: "longtail"
   title: "Best Coffee Gift Sets for Holiday Giving"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0cwmz6b1k"
 "2026-11-14":
   type: "longtail"
   title: "Best Espresso Machine Gifts Under $300"
-  cta_collection: "coffee-machines-roasters"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0b93s4zzz"
 "2026-11-15":
   type: "longtail"
   title: "Best Pour-Over Coffee Gift Sets"
@@ -773,11 +883,15 @@
 "2026-11-16":
   type: "longtail"
   title: "Best Café-Inspired Mug Gift Sets"
-  cta_collection: "dining-entertaining"
+  funnel: "commercial"
+  cluster: "dining-decor"
+  cta_product: "b08z796dgz"
 "2026-11-17":
   type: "longtail"
   title: "Best Bakeware Gift Sets for the Home Baker"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b082x75ngv"
 "2026-11-18":
   type: "hub"
   title: "Holiday Cafe Gift Hub Part 2: Premium Picks Worth Splurging"
@@ -785,11 +899,15 @@
 "2026-11-19":
   type: "longtail"
   title: "Best Stand Mixer Holiday Gifts for the Home Baker"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0cws4bdtm"
 "2026-11-20":
   type: "longtail"
   title: "Best Coffee Subscription Box Holiday Gifts"
-  cta_collection: "coffee-machines-roasters"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0f6vpf645"
 "2026-11-21":
   type: "quickfix"
   title: "Coffee Tastes Burnt? Quick Fix"
@@ -801,15 +919,21 @@
 "2026-11-23":
   type: "longtail"
   title: "How to Brew Coffee for a Crowd at Thanksgiving"
-  cta_collection: "coffee-machines-roasters"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0dqfcrfpj"
 "2026-11-24":
   type: "longtail"
   title: "Best Make-Ahead Cafe Drinks for Holiday Hosting"
-  cta_collection: "coffee-machines-roasters"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b07s4bz7q1"
 "2026-11-25":
   type: "longtail"
   title: "Last-Minute Thanksgiving Bakeware to Buy"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0bgqfztqy"
 "2026-11-26":
   type: "hub"
   title: "Thanksgiving Day Home Cafe Hub: Drinks for the Crowd"
@@ -817,7 +941,9 @@
 "2026-11-27":
   type: "longtail"
   title: "Best Black Friday Coffee Gift Deals to Watch"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0d53126xj"
 "2026-11-28":
   type: "longtail"
   title: "How to Reuse Thanksgiving Leftovers for Café-Style Brunch"
@@ -829,19 +955,27 @@
 "2026-11-30":
   type: "longtail"
   title: "Cyber Monday Café Tool Picks Under $50"
-  cta_collection: "kitchen-utensils-gadgets"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0f6vpf645"
 "2026-12-01":
   type: "longtail"
   title: "Best Christmas Cookie Recipes to Bake at Home"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0dvbltwkm"
 "2026-12-02":
   type: "longtail"
   title: "Best Cookie Cutters and Decorating Tips for Christmas"
-  cta_collection: "kitchen-utensils-gadgets"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b082x75ngv"
 "2026-12-03":
   type: "longtail"
   title: "How to Build a Christmas Cookie Decorating Station"
-  cta_collection: "kitchen-utensils-gadgets"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0cws4bdtm"
 "2026-12-04":
   type: "hub"
   title: "Christmas Cookie Hub: Every Recipe Worth Trying"
@@ -861,15 +995,21 @@
 "2026-12-08":
   type: "longtail"
   title: "Best Christmas Café Décor Picks for a Cozy Home"
-  cta_collection: "home-decor-accents"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0dqfcrfpj"
 "2026-12-09":
   type: "longtail"
   title: "Best Holiday Coffee Drink Ideas for December"
-  cta_collection: "flavor-syrups-concentrates"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0d53126xj"
 "2026-12-10":
   type: "longtail"
   title: "How to Make Peppermint Mocha at Home (Café-Style)"
-  cta_collection: "flavor-syrups-concentrates"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b0fdh7yz9h"
 "2026-12-11":
   type: "hub"
   title: "Holiday Hosting Café Drink Hub: Christmas Edition"
@@ -877,7 +1017,9 @@
 "2026-12-12":
   type: "longtail"
   title: "Best Hot Cocoa Recipes for Christmas Evenings"
-  cta_collection: "flavor-syrups-concentrates"
+  funnel: "commercial"
+  cluster: "dining-decor"
+  cta_product: "b07btgtbsm"
 "2026-12-13":
   type: "longtail"
   title: "Best Eggnog Latte Recipes at Home"
@@ -889,15 +1031,21 @@
 "2026-12-15":
   type: "longtail"
   title: "Best Coffee for After Christmas Dinner"
-  cta_collection: "premium-coffee-beans"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0cwmz6b1k"
 "2026-12-16":
   type: "longtail"
   title: "Best Cookware Gifts for the Holiday Cook"
-  cta_collection: "professional-cookware-pots"
+  funnel: "commercial"
+  cluster: "baking-cookware"
+  cta_product: "b0bgqfztqy"
 "2026-12-17":
   type: "longtail"
   title: "Best Last-Minute Café Gift Ideas Under $30"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0b93s4zzz"
 "2026-12-18":
   type: "hub"
   title: "Last-Minute Holiday Gift Hub: Café & Baking Edition"
@@ -905,7 +1053,9 @@
 "2026-12-19":
   type: "longtail"
   title: "Best Stocking Stuffer Café Tools and Accessories"
-  cta_collection: "coffee-gadgets-small-appliances"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b0fhrmbwdz"
 "2026-12-20":
   type: "longtail"
   title: "Best Holiday Drinks for Hosting Guests"
@@ -917,19 +1067,27 @@
 "2026-12-22":
   type: "longtail"
   title: "Best Christmas Morning Brunch Café Setup"
-  cta_collection: "dining-entertaining"
+  funnel: "commercial"
+  cluster: "coffee-gear"
+  cta_product: "b0f6vpf645"
 "2026-12-23":
   type: "longtail"
   title: "Best Cinnamon Bun Recipes for Christmas Morning"
-  cta_collection: "premium-bakeware-essentials"
+  funnel: "commercial"
+  cluster: "dining-decor"
+  cta_product: "b0bgk9k8vh"
 "2026-12-24":
   type: "longtail"
   title: "Best Christmas Eve Cocoa Bar Setup"
-  cta_collection: "flavor-syrups-concentrates"
+  funnel: "commercial"
+  cluster: "utensils-measuring"
+  cta_product: "b07yp9kn8p"
 "2026-12-25":
   type: "longtail"
   title: "Best Christmas Day Café Routine Ideas"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "espresso-machines"
+  cta_product: "b0dqfcrfpj"
 "2026-12-26":
   type: "longtail"
   title: "How to Reset Your Café Shelf After the Holidays"
@@ -945,7 +1103,9 @@
 "2026-12-29":
   type: "longtail"
   title: "Best Café Routine Goals for the New Year"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "beans-syrups-tea"
+  cta_product: "b000sdmfc0"
 "2026-12-30":
   type: "hub"
   title: "Year-End Home Café Reset Hub: Plan for 2027"
@@ -953,4 +1113,6 @@
 "2026-12-31":
   type: "longtail"
   title: "Year-End Café Shelf Refresh and Goals"
-  cta_collection: "home-cafe-essentials"
+  funnel: "commercial"
+  cluster: "storage-cleaning"
+  cta_product: "b0bcn3zsk5"
