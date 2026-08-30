@@ -60,7 +60,7 @@ def _format_collections_context(env):
         return "(collections unavailable: " + str(e) + ")"
 
 
-def perfection_pass(article, env):
+def perfection_pass(article, env, post_type=None):
     from content import _build_few_shot_block, _claude_call, _extract_json, OUTPUT_SCHEMA_INSTRUCTION, _call_and_parse_with_retry
     log("[Pass 5] perfection (10/10 push)")
     sys_prompt = load_system_prompt()
@@ -95,7 +95,10 @@ def perfection_pass(article, env):
         "Polish until every dimension is genuinely 10/10. If Quick Recap or CTA is missing, ADD them using a collection from the available list. Return improved JSON.\n\n"
         "```json\n" + json.dumps(article, ensure_ascii=False, indent=2) + "\n```"
     )
-    review_model = env.get("ANTHROPIC_REVIEW_MODEL", env["ANTHROPIC_MODEL"])
+    if post_type == "hub":
+        review_model = env.get("ANTHROPIC_REVIEW_MODEL", env["ANTHROPIC_MODEL"])
+    else:
+        review_model = env["ANTHROPIC_MODEL"]
     def _call():
         return _claude_call(
             api_key=env["ANTHROPIC_API_KEY"],
