@@ -225,7 +225,7 @@ def _build_user_prompt(*, date, topic, post_type, subtype, cta, hub_links, extra
                    else "1 featured + 2 body images (3 total)")
     hub_block = ""
     if hub_links:
-        lines = "\n".join("  - " + h["title"] + " -> https://se-ras.com/blogs/home-cafe-baking/" + h["slug"] for h in hub_links)
+        lines = "\n".join("  - " + h["title"] + " -> https://se-ras.com/blogs/home-cafe-baking/" + (h.get("slug") or h.get("handle", "")) for h in hub_links)
         hub_block = "Hub-related internal links allowed (4-5 max for hub posts):\n" + lines
     notes = ("\nAdditional notes: " + extra_notes) if extra_notes else ""
     return (
