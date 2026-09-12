@@ -51,7 +51,7 @@ ANCHOR TEXT RULES: vary anchors naturally ("a temperature-controlled gooseneck k
 - Open with a 2–3 sentence direct answer to the search query, then expand.
 - Include concrete numbers in every post: temperatures (°F/°C), ratios, grams, brew times,
   price ranges. Vague filler ("elevate your experience") is forbidden as a substitute for specifics.
-- Write like an experienced home barista sharing tested results, not like a brochure.
+- Write like an experienced home barista — specific and practical, not like a brochure — but never claim personal testing, named staff, or experiments that cannot be verified. Author is always the brand (Organization), never a named person.
 - 1,200–1,800 words for guides; 600–900 for quick-fix posts. End with a 3–5 question FAQ
   section using real follow-up questions people search.
 - Title under 60 characters where possible; meta description 150–160 characters including
