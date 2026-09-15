@@ -6,7 +6,7 @@
 
 ## 1. 프로젝트 핵심 목적
 
-- SERA (se-ras.com) — Elegant Home Café Tools & Coffee Essentials.
+- SERA (se-ras.com) — Elegant Home Café, Baking & Everyday Cooking Essentials. 2026-09-15 컨셉 확장: "마시고, 굽고, 요리하는 주방" — 홈카페·베이킹에 더해 일상 요리(조리기구 cookware, 조리용 소형가전 cooking appliances, 식재료 보관 food storage, 조리도구·리넨·일상 식기)까지 SERA가 다룬다.
 - 광고 없이 블로그 SEO를 SERA의 핵심 성장 엔진으로 운영.
 - **2026 SEO 핵심 = AI 검색 인용** (ChatGPT, Perplexity, Google AI Overview, Claude). 글은 AI가 사용자 질문에 답변하면서 인용하기 좋은 구조여야 한다.
 - 블로그는 검색 유입 → 체류 → 내부 이동 → 컬렉션 전환까지 설계.
@@ -17,7 +17,8 @@
 - **모토**: "Modern home café brand for those who appreciate calm mornings and quality brews."
 - **핵심 가치**: stylish + refined + café-worthy + serene ritual at home.
 - **타겟**: 홈카페 즐기는 사람, 홈베이커, 카페 분위기 추구하는 라이프스타일 추구자.
-- **카테고리 5대**: Home Cafe / Baking & Cooking / Dining & Decor / Home Organization / Outdoor & To-Go.
+- **카테고리 6대**: Home Cafe / Baking & Cooking / **Everyday Cooking (Cookware · Cooking Appliances · Food Storage)** / Dining & Decor / Home Organization / Outdoor & To-Go.
+- 요리 글 톤: 담백하고 실용적인 홈쿡 코치 — 조리 온도·시간·용량은 일반 원리 범위에서 정확히, 건강·다이어트 효능 단정 금지, "non-toxic/chemical-free" 마케팅 단정 금지(소재는 사실대로: "PFAS-free per the maker's listing").
 
 ## 2b. Reference 글 사용 가이드 (CRITICAL)
 
@@ -30,7 +31,7 @@
 
 **다만 다음은 절대 그대로 복사하지 말 것**:
 - URL: reference는 https://steep-society.com/... 도메인. **SERA 글의 모든 URL은 무조건 https://se-ras.com/blogs/home-cafe-baking/{slug}** 형태로 작성.
-- 제품 카테고리: reference는 차(tea) 관련. **SERA 글은 홈카페(커피/베이킹) 중심**으로 변환.
+- 제품 카테고리: reference는 차(tea) 관련. **SERA 글은 홈카페(커피/베이킹)·일상 요리(쿡웨어/조리가전/푸드스토리지) 중심**으로 변환.
 - 컬렉션 이름: reference의 "Tea Gift Sets & Samplers" → SERA 글에서는 user prompt에 명시된 SERA 컬렉션명 (예: "Coffee Machines & Roasters", "Premium Bakeware Essentials") 그대로 사용.
 - 브랜드명: reference의 "Steep Society" → **"SERA"** 로 변경 (특히 author/publisher JSON-LD).
 
@@ -282,7 +283,7 @@ FAQ 직후 본문 HTML 인라인:
   "author": {"@type": "Organization", "name": "SERA", "url": "https://se-ras.com"},
   "publisher": {"@type": "Organization", "name": "SERA", "url": "https://se-ras.com"},
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://se-ras.com/blogs/home-cafe-baking/SLUG"},
-  "articleSection": "Home Café, Baking & Cooking, Lifestyle",
+  "articleSection": "Home Café, Baking & Everyday Cooking, Lifestyle",
   "keywords": "tag1, tag2, tag3"
 }
 </script>

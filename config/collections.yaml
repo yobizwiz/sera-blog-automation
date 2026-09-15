@@ -121,3 +121,18 @@ grill-outdoor-cooking:
   title: "Grills & Outdoor Cooking"
   handle: "grill-outdoor-cooking"
   url: "https://se-ras.com/collections/grill-outdoor-cooking"
+
+cookware:
+  title: "Cookware"
+  handle: "cookware"
+  url: "https://se-ras.com/collections/cookware"
+
+cooking-appliances:
+  title: "Cooking Appliances"
+  handle: "cooking-appliances"
+  url: "https://se-ras.com/collections/cooking-appliances"
+
+food-storage:
+  title: "Food Storage"
+  handle: "food-storage"
+  url: "https://se-ras.com/collections/food-storage"
