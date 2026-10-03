@@ -53,3 +53,9 @@ Source snapshots prove only their exact cited facts and conditions. Never use a 
 Risk-bearing body sentences now require complete quoted coverage in claims/issues even when another claim was reviewed. The reviewer receives the exact checkpoints, and runtime coverage counts replace model-supplied counts. A single word or a quote that omits negation cannot discharge the whole sentence. Whitespace and final punctuation differences are tolerated. This verifies coverage, not factual truth; supporting evidence and contextual model assessment are still required. Sentence splitting and risk-pattern matching can miss unusual wording and can hold non-assertive risk headings.
 
 Semantic CTA checks recognize conventional separated class names such as cta-button, btn-primary and button--primary, but not incidental substrings such as buttonless-reference. Unknown theme-specific styling can still require review.
+
+## Evidence before generation (2026-10-03)
+
+Draft, critique, revision, cross-review and perfection prompts now receive the same locally validated primary-source snapshots used by factual review. Source data is supplied as reference JSON, not trusted instructions. Hash, expiry or read failures stop the pass before paid transport. Empty libraries permit ordinary editorial advice but cannot substantiate safety, quantitative, policy or product claims; an unanswerable factual topic must remain unresolved. Sources and prior drafts do not authorize changing the scheduled CTA.
+
+No live pass-rate or cost reduction has been measured. Adding source text increases input tokens; it does not guarantee approval or zero regeneration. Factual review remains independent. Model selection, call counts and final publication gates are unchanged. The existing perfection loop already skips improvement when the target score is met.
